@@ -27,4 +27,26 @@ Pada pertemuan ke-5 Bahasa pemrograman, saya diberi tugas oleh dosen untuk membu
 ![input gambar](poto/tugas5.PNG)<br>
 
 Saat ini saya akan menjelaskan hasil dari tugas tersebut <br>
-Berikut *source code* nya atau klik link berikut () ): <br>
+Berikut *source code* nya atau klik link berikut : <br>
+
+```python
+print("Please enter full name : ")
+fullname=input()
+
+print("please insert your Nickname : ")
+nickname=input()
+
+print("please enter your NPM : ")
+NPM=input()
+
+print("please enter your Born place : ")
+bornplace=input()
+
+print("please insert your age : ")
+age=input()
+
+print("please enter your home address : ")
+address=input()
+
+print("please enter your phone number : ")
+phonenumber=input()
