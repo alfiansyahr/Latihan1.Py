@@ -23,3 +23,5 @@ DAFTAR ISI <br>
 
      
 Pada pertemuan ke-5 Bahasa pemrograman, saya diberi tugas oleh dosen untuk membuat aplikasi biodata dengan Python (seperti dibawah ini)
+
+![input gambar](poto/tugas5.PNG)<br>
