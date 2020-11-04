@@ -66,3 +66,8 @@ print("Please enter full name : ")
 Source Code ini berfungsi untuk mencetak hasil atau output berupa ***"Please enter full name"*** seperti gambar dibawah ini :<br>
 
 Untuk menampilkan output String, saya menggunakan *tanda petik dua*, contohnya :
+
+```python
+print("Nama saya adalah ...")
+print(12345)
+```
