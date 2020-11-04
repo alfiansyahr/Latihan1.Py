@@ -80,3 +80,17 @@ Keterangan<br>
 1. Variabel adalah sebuah penyimpanan data pada program yang akan digunakan selama program ini berjalan. Yang berfungsi sebagai variabel dalam source code diatas adalah **Fullname**. <br>
 2. Fungsi **input()** adalah untuk memasukan nilai dari layar consol di command prompt, lalu kemudian mengembalikan nilai saat kita menekan tombol Enter
  *(newline)*<br>
+
+Pada gambar diatas, hasil dari inputan tersebut berwarna *hijau*<br>
+
+* Untuk perintah masukan yang lain seperti *nickname, NPM, ... dst, masukan perintah yang sama seperti memasukan *fullname*
+
+* Langkah kali ini saya akan menampilkan output yang diminta oleh Dosen,<br>
+output pertama yang diminta Dosen adalah menampilkan salam, yaitu dengan mengetikan syntax/ source code dibawah ini :
+
+```python
+print("\nAssalamualaikum Wr, Wb.")
+```
+Keterangan :<br>
+1. Fungsi ***\n*** pada source code diatas adalah untuk memberi barisan baru / Enter / *newline*
+2. Fungsi print(), seperti dijelaskan pada point *output* diatas<br>
