@@ -137,3 +137,30 @@ Hasil dari output tersebut adalah :
 <br>
 <br>
 <br>
+
+# Pertemuan 6 - Lab 1
+
+Pada tugas pertemuan ke-6 lab 1 saya diberikan tugas oleh Dosen yaitu mempelajari Aritmatika menggunakan bahasa pemrograman python. Berikut source code yang diberikan oleh dosen :
+
+![input gambar](picture/lab1.PNG)
+
+```python
+#penggunaan end
+print('A', end='')
+print('B', end='')
+print('C', end='')
+print()
+print('X')
+print('Y')
+print('z')
+
+#penggunaan separator
+w, x, y, z = 10, 15, 20, 25
+print(w, x, y, z)
+print(w, x, y, z, sep=',')
+print(w, x, y, z, sep='')
+print(w, x, y, z, sep=':')
+print(w, x, y, z, sep='.....')
+```
+<br>
+Kali ini saya akan menjelaskan materi yang diterima dari Dosen. <br><br>
