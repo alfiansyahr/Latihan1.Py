@@ -19,3 +19,7 @@ DAFTAR ISI <br>
 | 4 | Tugas pertemuan 6 Lab 2 | [Click Here](#pertemuan-6---lab-2)
 <br>
 
+# PERTEMUAN 5 - TUGAS BAHASA PEMROGRAMAN
+
+     
+Pada pertemuan ke-5 Bahasa pemrograman, saya diberi tugas oleh dosen untuk membuat aplikasi biodata dengan Python (seperti dibawah ini)
