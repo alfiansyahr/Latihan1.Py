@@ -56,3 +56,13 @@ print(f"\nLet me introduce my self. My name is {fullname}, but you can call me {
 print("\nThank you.")
 print("\n") 
 ``` 
+
+<br>
+Berikut penjelasanya : <br>
+
+```python
+print("Please enter full name : ")
+```
+Source Code ini berfungsi untuk mencetak hasil atau output berupa ***"Please enter full name"*** seperti gambar dibawah ini :<br>
+
+Untuk menampilkan output String, saya menggunakan *tanda petik dua*, contohnya :
