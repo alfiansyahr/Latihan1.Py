@@ -115,3 +115,25 @@ print("\nAssalamualaikum Wr, Wb.")
 Keterangan :<br>
 1. Fungsi ***\n*** pada source code diatas adalah untuk memberi barisan baru / Enter / *newline*
 2. Fungsi print(), seperti dijelaskan pada point *output* diatas<br>
+
+Hasil dari source code diatas adalah seperti gambar dibawah ini : 
+
+* Langkah terakhir adalah untuk menampilkan semua inputan diatas dengan mengetikan source code berikkut :
+
+```python
+print("\nAssalamualaikum Wr, Wb.")
+print(f"\nLet me introduce my self. My name is {fullname}, but you can call me {nickname}. My NPM is {NPM}. I was Born in {bornplace} and i am {age} years old. I am very glad if you want to invite my house in {address}. So, don't forget to call me before with the number {phonenumber}.")
+print("\nThank you.")
+print("\n")
+```
+Keterangan :<br>
+1. Fungsi huruf    ***f***  pada perintah ***print(f"...)*** adalah fungsi print yang dapat memudahkan programer untuk mencetak statement dalam satu baris dibandingkan dengan metode lama yaitu memisahkan string dan variabel dengan tanda koma ( , ) atau ( + ) <br>
+2. Sedangkan fungsi {} pada output tersebut adalah untuk menampilkan hasil dari variabel<br>
+
+Hasil dari output tersebut adalah :
+
+![input gambar](picture/Hasil.PNG)<br>
+
+<br>
+<br>
+<br>
