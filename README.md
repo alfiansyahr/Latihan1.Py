@@ -184,3 +184,54 @@ print('z')
 Hasil dari source code tersebut seperti gambar dibawah ini : <br><br>
 
 ![input gambar](picture/abc.PNG)
+
+* Penggunaan Separator<br>
+Esparator adalah pemisah yang berfungsi sebagai tanda pemisah antara objek yang dicetak. <br><br>
+
+Default nya adalah tanda seperti :<br>
+> Pendeklarasian beberapa variabel beserta nilainya
+
+```python
+print(w, x, y, z)
+```
+<br>
+
+> Menampilkan hasil dari tiap-tiap variabel dengan menggunakan pemisah (koma)
+
+```python
+print(w, x, y, z, sep=',')
+```
+<br>
+
+> Menampilkan hasil dari tiap-tiap variabel tanpa menggunakan pemisah
+
+```python
+print(w, x, y, z, sep='')
+```
+<br>
+
+> Menampilkan hasil dari tiap-tiap variabel dengan menggunakan pemisah (titik dua)
+
+```python
+print(w, x, y, z, sep=':')
+```
+<br>
+
+> Menampilkan hasil dari tiap-tiap variabel dengan menggunakan pemisah (titik-titik)
+
+```python
+print(w, x, y, z, sep='.....')
+```
+
+Hasil dari syntax / source code diatas adalah sebagai berikut : <br>
+
+![input gambar](picture/oke.PNG)
+
+# Pertemuan 6 Lab 1.2
+
+* String format 
+String formating atau pemformatan string memungkinkaan kita memasukan item kedalam string dari pada kita mencoba menggabungkan string menggunakan koma atau string concatenation.<br>
+
+Penggunaa source code yang diberikan oleh Dosen seperti berikut : <br>
+
+![input gambar](picture/lab1.2.PNG)
