@@ -164,3 +164,23 @@ print(w, x, y, z, sep='.....')
 ```
 <br>
 Kali ini saya akan menjelaskan materi yang diterima dari Dosen. <br><br>
+
+* Penggunaan End <br>
+Penggunaan End digunakan untuk menambahkan karakter yang dicetak di akhir baris. Secara default penggunan End adalah untuk garis baris.
+
+```python
+print('A', end='')
+print('B', end='')
+print('C', end='')
+```
+> Penggunaan print() digunakan untuk mencetak output, seperti syntax dibawah ini :
+
+```python
+print('X')
+print('Y')
+print('z')
+```
+<br>
+Hasil dari source code tersebut seperti gambar dibawah ini : <br><br>
+
+![input gambar](picture/abc.PNG)
