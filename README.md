@@ -99,3 +99,19 @@ print("\nAssalamualaikum Wr, Wb.")
 Keterangan :<br>
 1. Fungsi ***\n*** pada source code diatas adalah untuk memberi barisan baru / Enter / *newline*
 2. Fungsi print(), seperti dijelaskan pada point *output* diatas<br>
+
+![input gambar](picture/fullname2.PNG)<br>
+
+Pada gambar diatas, hasil dari inputan tersebut berwarna *hijau*<br>
+
+* Untuk perintah masukan yang lain seperti *nickname, NPM, ... dst, masukan perintah yang sama seperti memasukan *fullname*
+
+* Langkah kali ini saya akan menampilkan output yang diminta oleh Dosen,<br>
+output pertama yang diminta Dosen adalah menampilkan salam, yaitu dengan mengetikan syntax/ source code dibawah ini :
+
+```python
+print("\nAssalamualaikum Wr, Wb.")
+```
+Keterangan :<br>
+1. Fungsi ***\n*** pada source code diatas adalah untuk memberi barisan baru / Enter / *newline*
+2. Fungsi print(), seperti dijelaskan pada point *output* diatas<br>
