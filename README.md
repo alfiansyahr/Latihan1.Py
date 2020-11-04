@@ -71,3 +71,12 @@ Untuk menampilkan output String, saya menggunakan *tanda petik dua*, contohnya :
 print("Nama saya adalah ...")
 print(12345)
 ```
+* Untuk source kode berikutnya adalah inputan atau membuat variabel, seperti syntax dibawah ini
+
+```python
+Fullname=input()
+```
+Keterangan<br>
+1. Variabel adalah sebuah penyimpanan data pada program yang akan digunakan selama program ini berjalan. Yang berfungsi sebagai variabel dalam source code diatas adalah **Fullname**. <br>
+2. Fungsi **input()** adalah untuk memasukan nilai dari layar consol di command prompt, lalu kemudian mengembalikan nilai saat kita menekan tombol Enter
+ *(newline)*<br>
