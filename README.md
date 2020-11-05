@@ -235,3 +235,139 @@ String formating atau pemformatan string memungkinkaan kita memasukan item kedal
 Penggunaa source code yang diberikan oleh Dosen seperti berikut : <br>
 
 ![input gambar](picture/lab1.2.PNG)
+
+```python
+#string format 1
+print(0, 10**0)
+print(1, 10**1)
+print(2, 10**2)
+print(3, 10**3)
+print(4, 10**4)
+print(5, 10**5)
+print(6, 10**5)
+print(8, 10**8)
+print(9, 10**9)
+print(10, 10**10)
+
+#string format 2
+print('{0:>3} {1:>16}'.format(0, 10**0))
+print('{0:>3} {1:>16}'.format(1, 10**1))
+print('{0:>3} {1:>16}'.format(2, 10**2))
+print('{0:>3} {1:>16}'.format(3, 10**3))
+print('{0:>3} {1:>16}'.format(4, 10**4))
+print('{0:>3} {1:>16}'.format(5, 10**5))
+print('{0:>3} {1:>16}'.format(6, 10**6))
+print('{0:>3} {1:>16}'.format(7, 10**7))
+print('{0:>3} {1:>16}'.format(8, 10**8))
+print('{0:>3} {1:>16}'.format(9, 10**9))
+print('{0:>3} {1:>16}'.format(10, 10**10))
+```
+<br>
+
+Selanjutnya saya akan menjelaskan satu persatu kegunaan syntax tersebut. <br>
+
+1. String format 1<br>
+Pada syntax / source code string format 1 akan menampilkan berupa 2 output. <br>
+* Akan menampilkan angka Urut dari angka 0 hingga angka 10
+* Akan menampilkan Operasi Aritmatika Pangkat.
+
+Dengan ketentuan sebagai berikut, operasi pangkat dengan angka kiri sebagai pokok (Rumus : ** [bintang dua]).<br><br>
+Hasil dari syntax tersebut adalah 10 pangkat 0, hingga 10 pangkat 10. dengan output sebagai berikut :
+
+![input gambar](picture/string1.PNG)
+
+2. String format 2<br>
+Pada syntax atau source code string format 2 akan menampilkan output berupa 2 output'an juga (seperti String Format 1, yaitu kanan dan kiri).<br>
+Dengan ketentuan sebagai berikut :
+
+> Alignment, padding, dan precesion dengan **.format()** dalam kurung kurawal kita dapat menetapkan panjang bidang, rata kanan/kiri, parameter pembulatan dan banyak lagi. Contoh lain seperti berikut :
+
+```python
+print('{0:8} | {1:9}'.format('Buah','Jumlah'))
+print('{0:8} | {1:9}'.format('Apel', 3.))
+print('{0:8} | {1:9}'.format('Jeruk',10))
+```
+Hasil dari source code contoh diatas akan seperti berikut :<br>
+
+![input gambar](picture/string2.PNG)
+
+> Secara Default, **.format()** menggunakan rata teks ke kiri, angka ke kanan. Kita dapat menggunakan opsi opsional <, ^, atau > untuk mengatur perataan kiri, tengah, atau kanan. Contoh lain dalam penggunaan **.format()** sebagai berikut :
+<br>
+
+```python
+print('{:<30}{:^30}{:>30}'.format('Kiri','Tengah','Kanan'))
+print('{:<30}{:^30}{:>30}'.format(12,34,56))
+```
+Hasil dari source code contoh diatas akan muncul seperti ini :<br>
+
+![input gambar](picture/string2juga.PNG)
+
+Untuk hasil String format 2 sebagai berikut :
+<br>
+
+![input gambar](picture/string2lagi.PNG)
+
+## Pertemuan 6 - lab 2
+
+* Konversi nilai variabel
+Untuk pembahasan terakhir, kali ini akan menyelesaikan tugas lab 2 dari Dosen, yaitu konvers nilai variabel <br>
+tugas yang diberikan dosen adalah seperti gambar dibawah ini atau bisa diakses ke link [Pertemuan 6 - Lab 2](p6_lab2.py) : <br>
+
+![input gambar](picture/lab2.PNG)
+
+```python
+a=input("masukkan nilai A : ")
+b=input("masukkan nilai B : ")
+print("variable A=",a)
+print("variable B=",b)
+print("hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+
+#konversi nilai variable
+a=int(a)
+b=int(b)
+print("hasil pejumlahan {1}+{0}=%d".format(a,b) %(a+b))
+print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
+```
+
+Setelah saya menjalankan source code tersebut terdapat error, seperti gambar dibawah ini :
+
+![input gambar](picture/lab2lagi.PNG)
+
+Selanjutnya kita akan menyelesaikan error yang telah terdeteksi.<br>
+
+> ***TypeError: %d format: a number is required, not str*** <br>
+
+Pada error tersebut terbaca bahwa variable a adalah string, yang seharusnya dibaca oleh system adalah Number / Interger. <br>
+
+***Bagaimana cara memperbaiki error tersebut?***<br>
+
+Kita lihat pada baris ke 5 (di notifikasi terbaca bahwa error terletak pada baris ke 5), yaitu pada pemformatan .format() adalah interger, Sedangkan jika berupa string maka akan ada tanda petik dua ("..") pada pemformatan .format()
+Kita akan terfokus pada variable a dan b.
+
+Pada line 1 tertulis syntax : a=input("Masukkan Nilai A : ")
+Sedangkan pada line 2 tertulis sytax : b=input("Masukkan Nilai B : ")
+
+Untuk membuat inputan berupa interger/angka harus ditambahkan syntax int() pada format input(). Yang seharusnya ditulis adalah :
+
+```python
+a=int(input("masukkan nilai A : "))
+b=int(input("masukkan nilai B : "))
+print("variable A=",a)
+print("variable B=",b)
+print("hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+
+#konversi nilai variable
+a=int(a)
+b=int(b)
+print("hasil pejumlahan {1}+{0}=%d".format(a,b) %(a+b))
+print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
+```
+Kita akan coba lagi untuk ***run*** file tersebut, maka akan muncul seperti gambar dibawah ini :
+
+![input gambar](picture/runlab2.PNG)
+
+Setelah semua file berhasil disimpan dan dijalankan berhasil, maka selesai sudah Tugas Pertemuan 6 - Bahasa Pemrograman kali ini.
+
+<hr><hr>
+================================ GOOD LUCK ===================================
+<hr><hr>
